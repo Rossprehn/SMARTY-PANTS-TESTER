@@ -1,3 +1,4 @@
-function myFunction() {
-  document.getElementById('square').setAttribute('class', 'square-rotate')
+function roateSquare() {
+  var element = document.getElementById('square')
+  element.classList.toggle('square-rotate')
 }
